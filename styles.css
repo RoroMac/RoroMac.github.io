@@ -1,19 +1,71 @@
 body{
-  width:85%;
   background-color: white;
+  text-align: center;
+}
+
+header{
+  background-color: #FFFFFF;
+  padding-left:10px;
+  padding-top: 10px;
+}
+
+#logo{
+  background-image: url("images/weblogo.png");
+  height:35px;
+  width: 70px;
+  float: left
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#buttstuff{
+  font-family: Lato;
+  margin:auto;
+  right: 0;
+  top: 25px;
+}
+
+#buttstuff ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#buttstuff li{
+  float: right;
+  padding-right:16px;
+}
+
+#buttstuff li a{
+  display: block;
+  color: #00283D;
   text-align:center;
-  padding-top:1%
+  text-decoration: none;
+}
+
+#me{
+  float: left;
+  height:auto;
+  max-width:55%;
+  margin-top:-10px;
+  display: block;
 }
 
 main{
-  width:35%;
+  width:90%;
   text-align: left;
+  padding-top:35px;
   font-family: Roboto;
   margin-top: 25px;
   margin:auto;
   font-size:13px;
   color: #3F3135;
   padding-bottom:50px;
+}
+
+main p{
+  max-width:90%;
 }
 
 #Hello{
@@ -32,7 +84,7 @@ footer{
   bottom:0;
   width: 100%;
   height:2.5rem;
-  background-color: #494368;
+  background-color: #00283D;
   color: #FFFFFF;
 }
 
