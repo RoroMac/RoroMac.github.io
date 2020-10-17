@@ -50,18 +50,19 @@ header{
   max-width:55%;
   margin-top:-10px;
   display: block;
+  margin-bottom:100px;
 }
 
 main{
   width:90%;
   text-align: left;
-  padding-top:35px;
+  padding-top:50px;
   font-family: Roboto;
-  margin-top: 25px;
+  margin-top: 75px;
   margin:auto;
   font-size:13px;
   color: #3F3135;
-  padding-bottom:50px;
+  padding-bottom:125px;
 }
 
 main p{
