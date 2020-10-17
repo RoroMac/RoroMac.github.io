@@ -74,6 +74,17 @@ main p{
   font-weight: 700;
 }
 
+#banner{
+  max-width:100%;
+  background-image:url("images/bannerimage.jpg");
+  height:600px;
+  min-height:100%;
+  width:100%;
+  background-position:bottom center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
 footer{
   font-family: Lato;
   font-size:13px
