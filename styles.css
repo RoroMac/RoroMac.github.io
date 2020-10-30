@@ -1,3 +1,4 @@
+
 body{
   background-color: white;
   text-align: center;
@@ -50,24 +51,25 @@ header{
 }
 
 #me{
-  float: left;
   height:auto;
-  max-width:55%;
-  margin-top:-10px;
+  max-width:95%;
   display: block;
-  margin-bottom:100px;
+  left:0px;
 }
 
 main{
   width:90%;
+  display:grid;
   text-align: left;
-  padding-top:120px;
+  padding-top:100px;
   font-family: Roboto;
-  margin-top: 75px;
+  margin-top: 70px;
   margin:auto;
   font-size:13px;
   color: #3F3135;
   padding-bottom:125px;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 100%;
 }
 
 main p{
