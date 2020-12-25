@@ -67,9 +67,9 @@ main{
   margin:auto;
   font-size:13px;
   color: #3F3135;
-  padding-bottom:125px;
   grid-template-columns: 60% 40%;
   grid-template-rows: 100%;
+  margin-bottom:40px;
 }
 
 main p{
@@ -83,17 +83,14 @@ main p{
 }
 
 footer{
-  font-family: Lato;
-  font-size:13px
-}
-
-footer{
   position: fixed;
   bottom:0;
   width: 100%;
   height:2.5rem;
   background-color: #00283D;
   color: #FFFFFF;
+  font-family: Lato;
+  font-size:13px
 }
 
 .empha{
@@ -106,20 +103,155 @@ footer{
   margin-top:10px;
 }
 
-#work{
-  display:grid;
-  margin-left:auto;
-  margin-right: auto;
-  grid-template-columns: 100%;
-  grid-template-rows: 500px;
+.work {
+  height: 35rem;
+  width: 100%;
+  margin: auto;
+  background-color: #FFCF99;
+  font-family: Roboto;
+  /*#F1516 #809848*/
 }
 
-#handgesture{
-  background-image: url("images/Coverhand.jpg");
-  background-size: contain;
-  background-repeat:repeat-x;
+.work div{
+  float: right;
+  width: 50%;
+  background-color: hsla(227, 67%, 9%, 0.1);
+  color: white;
+  border-radius: 20px;
+  margin-top: 3rem;
+  margin-right: 4rem;
+}
+
+.work div p{
+  text-align: left;
+  padding-left:1rem;
+  margin-bottom:0px;
+  line-height: 1;
+}
+
+.work div p:first-child{
+  font-size:70px;
+  font-family: Lato;
+}
+
+.work div p:nth-child(2){
+  font-size: 40px;
+}
+
+.work div p:nth-child(3){
+  font-size: 13px;
+  line-height:1.2;
+}
+
+#rici {
+  background-image: url("images/ricicover.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+#rici:hover{
+  background-image: url("images/ricicoverhover.jpg");
+  transition-timing-function: ease-out;
+  transition: all 0.5s;
+}
+
+#ricibanner{
   width:100%;
-  height:100%;
-  border: none;
-  border-radius: 30px;
+  height:35rem;
+  background-image: url("images/ricibanner.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#ricibanner p{
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+#ricibanner p:first-child{
+  padding-top: 18rem;
+  font-size:80px;
+  margin-bottom:-10px;
+  border-bottom: 1px solid #ffffff;
+  font-family: Lato;
+  margin: auto;
+  width: 40%;
+
+}
+
+#riciteam{
+  height: 550px;
+  width: 100%;
+  background-color: white;
+  color: #3F3135;
+  padding-right: 1%;
+}
+
+#riciteam p:first-child{
+  text-align:left;
+  padding-left: 7.5%;
+  padding-top:3rem;
+  font-family: Lato;
+  font-size:40px;
+  letter-spacing: 1px;
+  margin-bottom:-5px;
+}
+
+#riciteam p:nth-child(2){
+  text-align:left;
+  padding-left: 8%;
+  font-family: Lato;
+  font-size:15px;
+  font-weight:bold;
+}
+
+#riciteam .team{
+  display: inline-block;
+  padding-top: 2rem;
+  width: 20%;
+  padding-left:1%;
+  padding:right:1%;
+  position: relative;
+}
+
+#riciteam .team a{
+  text-decoration: none;
+  font-family: Roboto;
+  color: #3F3135;
+}
+
+#riciteam .team img{
+  border-radius: 50%;
+  max-width: 100%;
+  max-height: 75%;
+}
+
+#riciteam .team p{
+  font-family: Roboto;
+  color: #3F3135;
+  font-size: 15px;
+  text-align: center;
+}
+
+#brief{
+  height: 200px;
+  background-color: white;
+  text-align:left;
+  width: 100%;
+}
+
+#brief p:first-child{
+  font-family: Lato;
+  padding-top:3rem;
+  font-size: 40px;
+  padding-left: 8rem;
+  padding-right: 5rem;
+  margin:auto;
+  text-align:left;
+  letter-spacing: 1px;
 }
