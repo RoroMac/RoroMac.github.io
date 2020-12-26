@@ -238,14 +238,14 @@ footer{
   text-align: center;
 }
 
-#brief{
-  height: 200px;
+#introduction{
+  height: 700px;
   background-color: white;
   text-align:left;
   width: 100%;
 }
 
-#brief p:first-child{
+#introduction .title{
   font-family: Lato;
   padding-top:3rem;
   font-size: 40px;
@@ -254,4 +254,26 @@ footer{
   margin:auto;
   text-align:left;
   letter-spacing: 1px;
+}
+
+#introduction p{
+  font-family:Roboto;
+  letter-spacing:0px;
+  padding-left:8rem;
+  text-align:left;
+  padding-right:5rem;
+  font-size:15px;
+}
+
+#ricileft{
+  padding-top
+  float:right;
+  height: 400px;
+  width:40%;
+  margin-left:10px;
+}
+
+#ricileft img{
+  height:300px;
+  width: 100%;
 }
