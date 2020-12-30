@@ -2,6 +2,8 @@
 body{
   background-color: white;
   text-align: center;
+  max-width:100%;
+
 }
 
 header{
@@ -9,7 +11,8 @@ header{
   overflow: hidden;
   position: fixed;
   width:100%;
-  padding: 10px 10px;
+  padding-top:10px;
+  margin-bottom:8px;
   z-index: 2;
   transition: all 0.4s ease 0s;
 }
@@ -27,7 +30,7 @@ header{
   font-family: Lato;
   position: relative;
   float: right;
-  margin-right: 30px;
+  padding-right: 30px;
   top: -25px;
 }
 
@@ -40,7 +43,7 @@ header{
 
 #buttstuff li{
   float: right;
-  padding-right:16px;
+  margin-right:16px;
 }
 
 #buttstuff li a{
@@ -174,27 +177,29 @@ footer{
 }
 
 #ricibanner p:first-child{
-  padding-top: 18rem;
+  padding-top: 17rem;
   font-size:80px;
   margin-bottom:-10px;
   border-bottom: 1px solid #ffffff;
   font-family: Lato;
   margin: auto;
   width: 40%;
-
 }
 
 #riciteam{
-  height: 550px;
-  width: 100%;
+  height: auto;
+  max-width: 100%;
   background-color: white;
   color: #3F3135;
-  padding-right: 1%;
+  padding-top:-5em;
+  margin-left:7em;
+  padding-right:7em;
+  margin-top:-2em;
+  margin-bottom:-2em;
 }
 
 #riciteam p:first-child{
   text-align:left;
-  padding-left: 7.5%;
   padding-top:3rem;
   font-family: Lato;
   font-size:40px;
@@ -204,19 +209,19 @@ footer{
 
 #riciteam p:nth-child(2){
   text-align:left;
-  padding-left: 8%;
   font-family: Lato;
   font-size:15px;
   font-weight:bold;
+  line-height:20px;
 }
 
 #riciteam .team{
   display: inline-block;
   padding-top: 2rem;
   width: 20%;
-  padding-left:1%;
-  padding:right:1%;
   position: relative;
+  margin-left:2%;
+  margin-right: 2%;
 }
 
 #riciteam .team a{
@@ -238,43 +243,37 @@ footer{
   text-align: center;
 }
 
+
 #introduction{
-  height: 700px;
+  height: auto;
   background-color: white;
   text-align:left;
-  width: 100%;
-  margin-bottom: 15em;
+  max-width: 100%;
+  width:100%;
 }
 
 #introduction .title{
   font-family: Lato;
   padding-top:3rem;
   font-size: 40px;
-  padding-left: 8rem;
-  padding-right: 5rem;
-  margin:auto;
   text-align:left;
   letter-spacing: 1px;
-  width: 100%;
-  margin-bottom:1em;
+  width: 80%;
 }
 
 #introduction p{
   font-family:Roboto;
-  letter-spacing:0px;
-  padding-left:8rem;
-  text-align:left;
-  padding-right:5rem;
-  width: 25%;
+  padding-left:7rem;
+  text-align: left;
+  width: 30%;
   font-size:15px;
 }
 
 #riciright{
-  padding-left:5em;
-  margin-left: -10px;
   float: right;
   height:100%;
   width: 60%;
+  margin-bottom: 3em;
 }
 
 #introduction a{
@@ -284,17 +283,74 @@ footer{
 
 #introduction .caption{
   text-align: center;
-  width:100%;
-  padding-left:0px;
-  padding-right: 0px;
   color: #9B9B9B;
+  padding-top:1em;
+  padding-left:1em;
+  width:40%;
+  margin:auto;
 }
 
 #riciright img{
   max-width: 100%;
   border-radius: 15px;
+  height: auto;
 }
 
 .caption{
   text-align: center;
+}
+
+#presearch{
+  clear:both;
+  background-color: white;
+  height:auto;
+  max-width: 100%;
+  margin-bottom: 100px;
+  text-align: left;
+  margin-left: 7em;
+  margin-right:7em;
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: left;
+  letter-spacing:0px;
+}
+
+.title{
+  font-family: Lato;
+  font-size: 40px;
+  text-align:left;
+  letter-spacing: 1px;
+  width: 80%;
+}
+
+.selection{
+  color: #9B9B9B;
+  transition: all 1s;
+}
+
+.selection:hover{
+  color: #00283D;
+}
+
+.showcase{
+  float: right;
+  width: 50%;
+  padding-left: 6em;
+  margin-left: 5em;
+  border-left: black solid 1px;
+}
+
+.clickable{
+  width:100%;
+  height:auto;
+}
+
+.overlay{
+  position:fixed;
+  z-index: 99;
+  top:0;
+  left:0;
+  width: auto;
+  height:auto;
+  background-color: white;
 }

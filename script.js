@@ -1,7 +1,4 @@
 (function(){
-  document.getElementById('me').setAttribute('draggable', false);
-
-
   const header = document.querySelector("header");
   window.addEventListener("wheel", ()=>{
     let currentScroll = window.pageYOffset;
@@ -17,5 +14,11 @@
       header.style.opacity="1";
       return;
     }
+  });
+
+  let clicked = document.querySelector("clickable");
+  window.addEventListener("click", function(){
+    console.log('error');
+    clicked.classList.add = "overlay";
   });
 }());
