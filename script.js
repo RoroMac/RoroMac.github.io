@@ -8,9 +8,6 @@
 
     let currentScroll = window.pageYOffset;
 
-    console.log('pos:'+ pos);
-    console.log('currentScroll:'+currentScroll);
-
     if (dim == 1) {
       header.style.top = "0px";
       header.style.opacity="1"
@@ -27,11 +24,19 @@
     else if (pos > currentScroll) {
       dim = 1;
     }
-
-    console.log("dim:"+dim)
     pos = currentScroll;
   });
 
-  //fullscreen function
+  let selection = document.querySelectorAll(".selection");
+  let presearcha = document.getElementById("presearcha");
+  let presearchb = document.getElementById("presearchb");
+  selection[0].addEventListener("click", ()=>{
+    presearchb.style.display="none";
+    presearcha.style.display="inline";
+  });
+  selection[1].addEventListener("click", ()=>{
+    presearcha.style.display="none";
+    presearchb.style.display="inline";
+  });
 
 }());

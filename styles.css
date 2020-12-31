@@ -107,16 +107,17 @@ footer{
 }
 
 .work {
-  height: 35rem;
-  width: 100%;
+  height: auto;
+  width: 97%;
   margin: auto;
-  background-color: #FFCF99;
   font-family: Roboto;
+  border-radius: 5px;
   /*#F1516 #809848*/
 }
 
 .work div{
   float: right;
+  height: auto;
   width: 50%;
   background-color: hsla(227, 67%, 9%, 0.1);
   color: white;
@@ -147,12 +148,15 @@ footer{
 }
 
 #rici {
+  height: 35rem;
   background-image: url("images/ricicover.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 100%;
   transition-timing-function: ease-in;
   transition: all 0.5s;
+  border-radius: 5px;
+  max-width:100%;
 }
 
 #rici:hover{
@@ -301,7 +305,6 @@ footer{
 }
 
 #presearch{
-  clear:both;
   background-color: white;
   height:auto;
   max-width: 100%;
@@ -309,10 +312,12 @@ footer{
   text-align: left;
   margin-left: 7em;
   margin-right:7em;
+  margin-top: 10em;
   font-family: Roboto;
   font-size: 15px;
   text-align: left;
   letter-spacing:0px;
+  transition: all 1s
 }
 
 .title{
@@ -345,12 +350,22 @@ footer{
   height:auto;
 }
 
-.overlay{
-  position:fixed;
-  z-index: 99;
-  top:0;
-  left:0;
-  width: auto;
-  height:auto;
+#interviews{
+  margin-top:100px;
+  clear:both;
+  height:100px;
   background-color: white;
+  width:100%;
+}
+
+#presearchstxt{
+  width:35%;
+}
+
+#presearcha{
+  display:none;
+}
+
+#presearchb{
+  display:none;
 }
