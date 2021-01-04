@@ -212,73 +212,93 @@ footer{
   color: white;
 }
 
-/* #riciright img{
-  max-width: 100%;
-  height: auto;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-} */
+#introduction img{
+  width:100%;
+  border-radius:10px;
+  margin-top:1em;
+}
+
+#dq .title{
+  clear:both;
+  max-width:100%;
+  margin-left:10em;
+  color:white;
+  font-family: Lato;
+  font-size:40px;
+  text-align:center;
+  margin-top:2em;
+  padding-top:1em;
+  margin-bottom:2em;
+  padding-bottom:1em;
+  border-top:1px solid white;
+  border-bottom:1px solid white;
+}
 
 .caption{
   text-align: center;
 }
 
 #presearch{
-  background-color: white;
-  height:auto;
-  max-width: 100%;
-  margin-bottom: 100px;
-  text-align: left;
-  margin-left: 7em;
-  margin-right:7em;
-  margin-top: 10em;
+  height: auto;
+  clear:both;
+  max-width:100%;
+  margin-left:20em;
+  padding-right:5em;
+  margin-top:10em;
+  color:white;
   font-family: Roboto;
-  font-size: 15px;
-  text-align: left;
-  letter-spacing:0px;
-  transition: all 1s
+  font-size:12px;
+  text-align:left;
 }
 
-.selection{
-  color: #9B9B9B;
-  transition: all 1s;
+#showcase{
+  text-align:left;
+  margin-right:7em;
+  font-family:roboto;
+  margin-left:auto;
+  width:40%;
+  font-size: 12px;
+  margin-bottom:2em;
+  line-height:1.5;
+  padding-top:1.5em;
 }
 
-.selection:hover{
-  color: #00283D;
+#showcase .subsub{
+  margin-left:-1em;
 }
 
-.showcase{
-  float: right;
-  width: 50%;
-  padding-left: 6em;
-  margin-left: 5em;
-  border-left: black solid 1px;
-}
-
-.clickable{
-  width:100%;
+#photogallery{
   height:auto;
+  max-width:100%;
+  margin-left:20em;
+  padding-right:5em;
+}
+
+#photogallery img{
+  max-width:100%;
+  border-radius:5px;
+}
+
+#photogallery .caption{
+  font-family:Roboto;
+  color:white;
+  text-align:center;
+  font-size:12px;
+  letter-spacing:1px;
+}
+
+#selector{
+  display:inline-block;
+  width:100%;
+}
+
+#selector .choice{
+  width:20%;
+  background-color:white;
+  height:20px;
+  margin:1px;
 }
 
 #interviews{
-  margin-top:100px;
-  clear:both;
-  height:100px;
-  background-color: white;
-  width:100%;
-}
-
-#presearchstxt{
-  width:35%;
-}
-
-#presearcha{
-  display:none;
-}
-
-#presearchb{
-  display:none;
+  height:10em;
 }
