@@ -1,0 +1,284 @@
+
+body{
+  background-color: #27382c;
+  text-align: center;
+  max-width:100%;
+}
+
+header{
+  background-color: #FFFFFF;
+  overflow: hidden;
+  position: fixed;
+  width:100%;
+  padding-top:10px;
+  margin-bottom:8px;
+  z-index: 2;
+  transition: all 0.4s ease 0s;
+}
+
+#logo{
+  background-image: url("images/weblogo.png");
+  height:35px;
+  width: 70px;
+  margin-left: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#buttstuff{
+  font-family: Lato;
+  position: relative;
+  float: right;
+  padding-right: 30px;
+  top: -25px;
+}
+
+#buttstuff ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#buttstuff li{
+  float: right;
+  margin-right:16px;
+}
+
+#buttstuff li a{
+  display: block;
+  color: #00283D;
+  text-align:center;
+  text-decoration: none;
+}
+
+
+footer{
+  position: fixed;
+  bottom:0;
+  width: 100%;
+  height:2.5rem;
+  background-color: #00283D;
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size:13px
+}
+
+#ricibanner{
+  width:100%;
+  height:45rem;
+  background-image: url("images/ricibanner.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#ricibanner p{
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+#ricibanner p:first-child{
+  padding-top: 20rem;
+  font-size:80px;
+  margin-bottom:-20px;
+  border-bottom: 1px solid #ffffff;
+  font-family: Lato;
+  margin: auto;
+  width: 40%;
+}
+
+#toc{
+  width:12%;
+  font-size:15px;
+  font-family: Roboto;
+  text-align:right;
+  position: sticky;
+  float:left;
+  line-height:2;
+  top:10em;
+  left:1em;
+  margin-top:4em;
+  color: #507a5d;
+}
+
+#toc a{
+  text-decoration: none;
+  color:#ebebeb;
+}
+
+#teamspec{
+  text-align:left;
+  margin-right:1em;
+  font-family:roboto;
+  margin-left:auto;
+  width:45%;
+  font-size: 12px;
+  margin-bottom:2em;
+  line-height:1.5;
+  padding-top:1.5em;
+}
+
+
+#riciteam{
+  height: auto;
+  max-width: 100%;
+  margin-left:15em;
+  padding-right:5em;
+  margin-bottom:-2em;
+  margin-top:2em;
+  color: white;
+}
+
+.title{
+  float:left;
+  text-align:left;
+  margin-left:2em;
+  font-size:30px;
+  font-family:Lato;
+  letter-spacing: 2.5px;
+  color:white;
+}
+
+#riciteam .team{
+  display: inline-block;
+  padding-top: 1rem;
+  width: 20%;
+  position: relative;
+  margin-left:2%;
+  margin-right: 2%;
+  font-family:Roboto;
+  letter-spacing:3;
+}
+
+#riciteam .team a{
+  text-decoration: none;
+  font-family: Roboto;
+  color: white;
+}
+
+#riciteam .team img{
+  border-radius: 50%;
+  max-width: 100%;
+  max-height: 75%;
+  border: 0.5px white solid;
+}
+
+.subtitle{
+  font-weight:bolder;
+  font-size:15px;
+  letter-spacing:2px;
+  margin-bottom:-12px;
+}
+
+.subsub{
+  font-size:15px;
+  margin-bottom: -12px;
+}
+
+.subsub:after{
+  line-height:0;
+}
+
+
+#introduction{
+  height: auto;
+  clear:both;
+  max-width:100%;
+  margin-left:20em;
+  padding-right:5em;
+  margin-top:10em;
+  color:white;
+  font-family: Roboto;
+  font-size:12px;
+  text-align:left;
+}
+
+#introback{
+  text-align:left;
+  margin-right:7em;
+  font-family:roboto;
+  margin-left:auto;
+  width:40%;
+  font-size: 12px;
+  margin-bottom:2em;
+  line-height:1.5;
+  padding-top:1.5em;
+}
+
+#introback a{
+  text-decoration:underline;
+  color: white;
+}
+
+/* #riciright img{
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+} */
+
+.caption{
+  text-align: center;
+}
+
+#presearch{
+  background-color: white;
+  height:auto;
+  max-width: 100%;
+  margin-bottom: 100px;
+  text-align: left;
+  margin-left: 7em;
+  margin-right:7em;
+  margin-top: 10em;
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: left;
+  letter-spacing:0px;
+  transition: all 1s
+}
+
+.selection{
+  color: #9B9B9B;
+  transition: all 1s;
+}
+
+.selection:hover{
+  color: #00283D;
+}
+
+.showcase{
+  float: right;
+  width: 50%;
+  padding-left: 6em;
+  margin-left: 5em;
+  border-left: black solid 1px;
+}
+
+.clickable{
+  width:100%;
+  height:auto;
+}
+
+#interviews{
+  margin-top:100px;
+  clear:both;
+  height:100px;
+  background-color: white;
+  width:100%;
+}
+
+#presearchstxt{
+  width:35%;
+}
+
+#presearcha{
+  display:none;
+}
+
+#presearchb{
+  display:none;
+}
