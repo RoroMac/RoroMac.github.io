@@ -50,7 +50,7 @@
             phocap.innerHTML = "Affinity Diagram - Institutional Queries";
           }
           if(i == 2){
-            phocap.innerHTML = "Affinity Diagram - Effect of Social Facilitation";
+            phocap.innerHTML = "Affinity Diagram - Social Facilitation";
           }
           if(i == 3){
             phocap.innerHTML = "Affinity Diagram - Environmental Aids";
@@ -61,6 +61,44 @@
         }
         else{
           dodo[i].style.opacity =0.2;
+        }
+
+      }
+
+
+    });
+  });
+
+  let perschange = document.getElementById("pphotos");
+  let pchoice = document.querySelectorAll(".pchoice");
+  let percap = document.querySelector("#pergallery .caption");
+  //choice divs
+  let persel = document.querySelectorAll(".pchoice").forEach(item => {
+    item.addEventListener("click",()=>{
+      conversion = item.currentStyle || window.getComputedStyle(item, false),
+      bi = conversion.backgroundImage.slice(4, -1).replace(/"/g, "");
+      perschange.style.backgroundImage = 'url('+bi+')';
+
+      var i =0;
+      for(i=0; i < pchoice.length; i++){
+        if (pchoice[i] == item){
+          pchoice[i].style.opacity = 1;
+
+          if (i == 0){
+            percap.innerHTML = "Tertiary Persona";
+          }
+          else if(i == 1){
+            percap.innerHTML = "Tertiary Persona";
+          }
+          if(i == 2){
+            percap.innerHTML = "Secondary Persona";
+          }
+          if(i == 3){
+            percap.innerHTML = "Primary Persona";
+          }
+        }
+        else{
+          pchoice[i].style.opacity =0.2;
         }
 
       }

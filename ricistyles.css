@@ -118,6 +118,11 @@ footer{
   margin-bottom:2em;
   line-height:1.5;
   padding-top:1.5em;
+  letter-spacing:1px;
+}
+
+#teamspec a{
+  color:white;
 }
 
 
@@ -193,6 +198,7 @@ footer{
   font-family: Roboto;
   font-size:12px;
   text-align:left;
+  letter-spacing:1px;
 }
 
 #introback{
@@ -221,7 +227,8 @@ footer{
 #dq .title{
   clear:both;
   max-width:100%;
-  margin-left:10em;
+  margin-left:30%;
+  margin-right:10%;
   color:white;
   font-family: Lato;
   font-size:40px;
@@ -249,6 +256,7 @@ footer{
   font-family: Roboto;
   font-size:12px;
   text-align:left;
+  letter-spacing:1px;
 }
 
 #showcase{
@@ -272,6 +280,7 @@ footer{
   max-width:100%;
   margin-left:15em;
   margin-right:10em;
+  margin-top:3em;
 }
 
 #photoaf{
@@ -356,5 +365,123 @@ footer{
 }
 
 #interviews{
-  height:10em;
+  height: auto;
+  clear:both;
+  max-width:100%;
+  margin-left:20em;
+  padding-right:5em;
+  margin-top:5em;
+  color:white;
+  font-family: Roboto;
+  font-size:12px;
+  text-align:left;
+  margin-bottom:5em;
+}
+
+.right{
+  text-align:left;
+  margin-right:7em;
+  font-family:roboto;
+  margin-left:auto;
+  width:40%;
+  font-size: 12px;
+  margin-bottom:2em;
+  line-height:1.5;
+  letter-spacing: 1PX;
+  padding-top:1.5em;
+}
+
+#personas{
+  height: auto;
+  clear:both;
+  max-width:100%;
+  margin-left:20em;
+  padding-right:5em;
+  margin-top:5em;
+  color:white;
+  font-family: Roboto;
+  font-size:12px;
+  text-align:left;
+  margin-bottom:5em;
+}
+
+#pergallery{
+  height:auto;
+  max-width:100%;
+  margin-left:15em;
+  margin-right:10em;
+  margin-top:3em;
+}
+
+#pphotos{
+  height:30em;
+  max-width:100%;
+  border-radius:5px;
+  background-image:url("images/rp2.jpg");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:contain;
+  margin-bottom:1em;
+  transition: all 0.5s;
+}
+
+#pselector{
+  display:inline-block;
+  width:100%;
+  align-content:center;
+  margin-left:-6%;
+  margin-top:1em;
+}
+
+#pergallery .caption{
+  font-family:Roboto;
+  color:white;
+  text-align:center;
+  font-size:12px;
+  letter-spacing:1px;
+  margin-top:1em;
+}
+
+#pselector .pchoice{
+  width:20%;
+  background-color:white;
+  height:20px;
+  margin:1px;
+  float:right;
+  margin-right:1em;
+  height:6em;
+  border-radius:5px;
+  transition: all 1s;
+}
+
+#pselector .pchoice:first-child{
+  background-image: url("images/rp4.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  opacity :0.5;
+}
+
+#pselector .pchoice:nth-child(2){
+  background-image: url("images/rp3.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  opacity :0.5;
+}
+
+#pselector .pchoice:nth-child(3){
+  background-image: url("images/rp1.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  opacity :0.5;
+}
+
+#pselector .pchoice:nth-child(4){
+  background-image: url("images/rp2.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  opacity :1;
 }
