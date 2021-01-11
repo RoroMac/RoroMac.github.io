@@ -564,3 +564,22 @@ footer{
   margin-left:15%;
   margin-bottom:2em;
 }
+
+#last{
+  width:35%;
+  margin: auto;
+  font-family: Roboto;
+  color: white;
+  text-align:left;
+  font-size:20px;
+  line-height: 1.5;
+  margin-bottom:5em;
+  margin-top:5em;
+  border-top:1px white solid;
+  letter-spacing:2px;
+}
+
+#last a{
+  color:white;
+  font-style: italic;
+}
