@@ -4,6 +4,7 @@
   let pos = 0;
   let dim = 1;
   let header = document.querySelector("header");
+
   window.addEventListener("wheel", ()=>{
 
     let currentScroll = window.pageYOffset;
@@ -25,6 +26,8 @@
       dim = 1;
     }
     pos = currentScroll;
+
+    console.log(currentScroll);
   });
 
   //change image
