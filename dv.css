@@ -1,10 +1,16 @@
-
 body{
-  background-color: white;
+  background-color: black;
   text-align: center;
   max-width:100%;
   height:auto;
+  color:#fcf6f5ff;
+  font-family:Roboto;
+  font-size:14px;
+  font-weight:lighter;
+}
 
+body a{
+  color:#fcf6f5ff;
 }
 
 header{
@@ -16,6 +22,14 @@ header{
   margin-bottom:8px;
   z-index: 2;
   transition: all 0.4s ease 0s;
+}
+
+#dvbanner{
+  width:100%;
+  height:45rem;
+  background-image: url("images/welcometothevoid.png");
+  background-position: center;
+  background-size: cover;
 }
 
 #logo{
@@ -54,13 +68,6 @@ header{
   text-decoration: none;
 }
 
-#me{
-  height:auto;
-  max-width:95%;
-  display: block;
-  left:0px;
-}
-
 main{
   width:90%;
   display:grid;
@@ -78,12 +85,6 @@ main{
 
 main p{
   max-width:90%;
-}
-
-#Hello{
-  font-family: Lato;
-  font-size: 16px;
-  font-weight: 700;
 }
 
 footer{
@@ -148,22 +149,19 @@ footer{
   line-height:1.2;
 }
 
-#rici {
-  height: 35rem;
-  background-image: url("images/ricicover.jpg");
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 100%;
-  transition-timing-function: ease-in;
-  transition: all 0.5s;
-  border-radius: 5px;
-  max-width:100%;
+#title{
+  font-size:50px;
+  letter-spacing:2px;
+  font-weight:300;
+  font-family: Lato;
+  margin-top:5em;
+  margin-bottom:-10px;
 }
 
-#rici:hover{
-  background-image: url("images/ricicoverhover.jpg");
-  transition-timing-function: ease-out;
-  transition: all 0.5s;
+#subtitle{
+  font-style:italic;
+  font-family:Lato;
+  font-size:25px;
 }
 
 #datavoid{
@@ -173,4 +171,41 @@ footer{
   background-position: center;
   background-repeat: no-repeat;
   margin-bottom: 2em;
+}
+
+#TitleSequence{
+  height:10em;
+  padding-bottom:3em;
+}
+
+#team{
+  width:100%;
+  margin:auto;
+  margin-bottom:13em;
+  margin-top:2em;
+}
+
+#team a{
+  font-style:italic;
+}
+
+#team span{
+  font-size: 18px;
+}
+
+#team li{
+  display: inline-block;
+  text-align:left;
+  text-decoration:none;
+  margin-left:3em;
+  margin-right:3em;
+  vertical-align:top;
+}
+
+.quote p{
+  font-size:50px;
+  margin-top:5em;
+  margin-bottom:5em;
+  color:#fcf6f5ff;
+  text-shadow:0px -4px 45px #fcf6f5ff;
 }
