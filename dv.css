@@ -218,4 +218,10 @@ footer{
   font-size:15px;
   line-height:1.5em;
   letter-spacing:2px;
+  background-color: white;
+  padding-right: 4em;
+  padding-left: 4em;
+  color:black;
+  padding-top:2em;
+  padding-bottom: 2em;
 }

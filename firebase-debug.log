@@ -1,0 +1,40 @@
+[debug] [2021-08-10T18:27:02.062Z] ----------------------------------------------------------------------
+[debug] [2021-08-10T18:27:02.064Z] Command:       /usr/local/bin/firebase /Users/RoryMcCaffrey/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase emulators:start
+[debug] [2021-08-10T18:27:02.064Z] CLI Version:   9.16.0
+[debug] [2021-08-10T18:27:02.064Z] Platform:      darwin
+[debug] [2021-08-10T18:27:02.064Z] Node Version:  v12.18.1
+[debug] [2021-08-10T18:27:02.065Z] Time:          Tue Aug 10 2021 11:27:02 GMT-0700 (Pacific Daylight Time)
+[debug] [2021-08-10T18:27:02.065Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-08-10T18:27:02.106Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-08-10T18:27:02.106Z] > authorizing via signed-in user (rorymcc@uw.edu)
+[info] i  emulators: Starting emulators: functions, firestore, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, firestore, hosting"}}
+[debug] [2021-08-10T18:27:02.120Z] [hub] writing locator at /var/folders/2t/dkw19t053xzfh8c7bnpfzgnm0000gn/T/hub-rory-mccaffrey-portfolio-dcbdb.json
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, database, pubsub, storage\u001b[22m"}}
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  functions: Stopping Functions Emulator {"metadata":{"emulator":{"name":"functions"},"message":"Stopping Functions Emulator"}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[debug] [2021-08-10T18:27:02.978Z] Error: Cannot find module '/Users/RoryMcCaffrey/Desktop/RoroMac.github.io/functions/package.json'
+Require stack:
+- /Users/RoryMcCaffrey/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js
+- /Users/RoryMcCaffrey/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/emulator/controller.js
+- /Users/RoryMcCaffrey/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/emulator/commandUtils.js
+- /Users/RoryMcCaffrey/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/commands/database-get.js
+- /Users/RoryMcCaffrey/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/commands/index.js
+- /Users/RoryMcCaffrey/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/index.js
+- /Users/RoryMcCaffrey/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:964:15)
+    at Function._resolveFilename (pkg/prelude/bootstrap.js:1459:46)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1024:19)
+    at Module.require (pkg/prelude/bootstrap.js:1338:31)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at FunctionsEmulator.askInstallNodeVersion (/Users/RoryMcCaffrey/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:447:21)
+    at FunctionsEmulator.start (/Users/RoryMcCaffrey/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:158:32)
+    at Function.start (/Users/RoryMcCaffrey/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/emulator/registry.js:16:24)
+    at startEmulator (/Users/RoryMcCaffrey/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/emulator/controller.js:90:39)
+    at Object.startAll (/Users/RoryMcCaffrey/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/emulator/controller.js:273:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Command.actionFn (/Users/RoryMcCaffrey/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/commands/emulators-start.js:26:9)
+[error] 
+[error] Error: An unexpected error has occurred.

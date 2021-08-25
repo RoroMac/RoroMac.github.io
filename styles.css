@@ -160,11 +160,6 @@ footer{
   max-width:100%;
 }
 
-#rici:hover{
-  background-image: url("images/ricicoverhover.jpg");
-  transition-timing-function: ease-out;
-  transition: all 0.5s;
-}
 
 #datavoid{
   height:35rem;
