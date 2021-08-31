@@ -215,7 +215,7 @@ footer{
   width: 55%;
   margin: auto;
   text-align:left;
-  font-size:15px;
+  font-size:12px;
   line-height:1.5em;
   letter-spacing:2px;
   background-color: white;
@@ -224,4 +224,8 @@ footer{
   color:black;
   padding-top:2em;
   padding-bottom: 2em;
+}
+
+.subheading{
+  font-size:15px;
 }
