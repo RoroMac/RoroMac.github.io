@@ -202,14 +202,6 @@ footer{
   vertical-align:top;
 }
 
-.quote p{
-  font-size:50px;
-  margin-top:5em;
-  margin-bottom:2em;
-  color:#fcf6f5ff;
-  text-shadow:0px -4px 45px #fcf6f5ff;
-}
-
 .info{
   padding-bottom:10em;
   width: 55%;
@@ -228,4 +220,53 @@ footer{
 
 .subheading{
   font-size:15px;
+}
+
+#wdv1{
+  max-width:50vw;
+  height:50vw;
+  background-image: url("images/dv01.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: all 1s;
+}
+
+#wdv1:hover{
+  background-image: url("images/dv02.jpg");
+}
+
+
+#wdv2{
+  max-width:50vw;
+  height:50vw;
+  background-image: url("images/dv03.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: all 1s;
+}
+
+#wdv2:hover{
+  background-image: url("images/dv04.jpg");
+}
+
+#wdv3{
+  max-width:50vw;
+  height:50vw;
+  background-image: url("images/dv05.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: all 1s;
+}
+
+#wdv3:hover{
+  background-image: url("images/dv06.jpg");
+}
+
+#fakepost{
+  max-width:50vw;
+  height:50vw;
+  background-image: url("images/fakepost.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: all 1s;
 }
