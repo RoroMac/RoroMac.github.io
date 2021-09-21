@@ -270,3 +270,16 @@ footer{
   background-size: cover;
   transition: all 1s;
 }
+
+#fakerpost{
+  max-width:50vw;
+  height:50vw;
+  background-image: url("images/fakerpost.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: all 1s;
+}
+
+.info span{
+  font-style:italic;
+}
