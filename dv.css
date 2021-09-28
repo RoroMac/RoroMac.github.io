@@ -69,7 +69,7 @@ header{
 }
 
 main{
-  width:90%;
+  width:95%;
   display:grid;
   text-align: left;
   padding-top:100px;
@@ -265,7 +265,7 @@ footer{
 #fakepost{
   max-width:50vw;
   height:50vw;
-  background-image: url("images/fakepost.jpg");
+  background-image: url("images/fake.png");
   background-position: center;
   background-size: cover;
   transition: all 1s;
@@ -274,7 +274,7 @@ footer{
 #fakerpost{
   max-width:50vw;
   height:50vw;
-  background-image: url("images/fakerpost.jpg");
+  background-image: url("images/faker.png");
   background-position: center;
   background-size: cover;
   transition: all 1s;
